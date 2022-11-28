@@ -18,7 +18,7 @@ const Category = ({ title, imgSrc }: CategoryProps) => (
       height="300"
       alt="men clothes"
     />
-    {/* <h1 className="text-center relative">{title}</h1> */}
+    <h1 className="text-center relative -top-1/2 text-white font-bold">{title}</h1>
   </li>
 )
 
