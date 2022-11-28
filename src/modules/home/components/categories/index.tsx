@@ -10,21 +10,21 @@ interface CategoryProps {
 }
 
 const Category = ({ title, imgSrc }: CategoryProps) => (
-  <li className="mx-auto ">
+  <li className="mx-auto w-1/2  p-1 pb-0 md:p-0">
     <Image
       src={imgSrc}
       className="object-fill "
       width="400"
-      height="350"
+      height="300"
       alt="men clothes"
     />
-    <h1 className="text-center relative">{title}</h1>
+    {/* <h1 className="text-center relative">{title}</h1> */}
   </li>
 )
 
 const Categories = () => {
   return (
-    <ul className="p-2 flex gap-x-2 flex-col md:flex-row">
+    <ul className="p-2 flex flex-wrap md:flex-row md:flex-nowrap md:gap-x-2">
       <Category imgSrc={menClothes} title="ფასდაკლება" />
       <Category imgSrc={sales} title="საშემოდგომო კოლექცია" />
       <Category imgSrc={sales} title="ონლაინ ექკლუზივი" />
