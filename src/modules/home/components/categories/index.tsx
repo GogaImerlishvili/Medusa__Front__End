@@ -10,15 +10,18 @@ interface CategoryProps {
 }
 
 const Category = ({ title, imgSrc }: CategoryProps) => (
-  <li className="mx-auto w-1/2  p-1 pb-0 md:p-0">
+  <li className="mx-auto w-1/2 relativeh  p-1 pb-0 md:p-0">
     <Image
       src={imgSrc}
       className="object-fill "
       width="400"
       height="300"
       alt="men clothes"
+      title="ABC"
     />
-    <h1 className="text-center relative -top-1/2 text-white font-bold">{title}</h1>
+    <h1 className="text-center relative -top-[60%] text-white font-bold -mb-6">
+      {title}
+    </h1>
   </li>
 )
 
