@@ -11,10 +11,10 @@ const AddressesTemplate = () => {
   return (
     <div className="w-full">
       <div className="mb-8 flex flex-col gap-y-4">
-        <h1 className="text-2xl-semi">Shipping Addresses</h1>
+        <h1 className="text-2xl-semi">მიწოდების მისამართები</h1>
         <p className="text-base-regular">
-          View and update your shipping addresses, you can add as many as you
-          like. Saving your addresses will make them available during checkout.
+        იხილეთ და განაახლეთ თქვენი მიწოდების მისამართები, შეგიძლიათ დაამატოთ რამდენიც თქვენ
+           გსურთ. თქვენი მისამართების შენახვა მათ ხელმისაწვდომს გახდის შეკვეთის დროს.
         </p>
       </div>
       <AddressBook customer={customer} />

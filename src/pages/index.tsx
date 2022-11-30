@@ -9,8 +9,8 @@ const Home: NextPageWithLayout = () => {
   return (
     <>
       <Head
-        title="Home"
-        description="Shop all available models only at the ACME. Worldwide Shipping. Secure Payment."
+        title="მთავარი"
+        description="შეიძინეთ ყველა ხელმისაწვდომი მოდელი მხოლოდ ALLSTORE-ში. მიწოდება ყველა რეგიონში. უსაფრთხო გადახდა."
       />
       <Hero />
       <FeaturedProducts />
