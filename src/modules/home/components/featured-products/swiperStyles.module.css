@@ -30,10 +30,10 @@
   object-fit: cover;
 }
 
-.mySwiper{
+/* .mySwiper{
   max-width: 100%;
-  height: 55vh;
-}
+  height: 85vh;
+} */
 
 .image{
   min-height: 20vh;
