@@ -27,13 +27,13 @@ const FeaturedProducts = () => {
 
   return (
     <div className="mt-20 font-bold ">
-      <div>
-      <h1 className="text-4xl ml-16 mb-4">Top შემოთავაზებები</h1>
+   
+      <h1 className="text-4xl ml-16 mt-5">Top შემოთავაზებები</h1>
           <Swiper  navigation={true} modules={[Navigation]} 
           onSlideChange={() => console.log('slide change')} 
           slidesPerView={3}
-          spaceBetween={1}
-          scrollbar={{ draggable: true }}
+          spaceBetween={0}
+         
           className={styles.mySwiper}>
        {data?.map((product) => (
        
@@ -41,11 +41,10 @@ const FeaturedProducts = () => {
         <SwiperSlide key={product.id}>
           <Image width="300" height="500" src={product.thumbnail!} alt="alt" />
         </SwiperSlide>
-        <div className="">{product.title}</div>
         </>
        ))}
       </Swiper> 
-      </div>
+   
       <div className="content-container py-12"> 
         <ul className="grid grid-cols-2 small:grid-cols-4 gap-x-4 gap-y-8">
           {data

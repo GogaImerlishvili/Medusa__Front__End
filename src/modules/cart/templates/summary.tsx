@@ -13,7 +13,9 @@ const Summary = ({ cart }: SummaryProps) => {
       <CartTotals cart={cart} />
       <Link href="/checkout">
         <a>
-          <Button>Go to checkout</Button>
+          <Button>
+            <span className="text-lg">გადახდა</span>
+          </Button>
         </a>
       </Link>
     </div>

@@ -43,10 +43,9 @@ const Register = () => {
 
   return (
     <div className="max-w-sm flex flex-col items-center mt-12">
-      <h1 className="text-large-semi uppercase mb-6">Become a Acme Member</h1>
+      <h1 className="text-large-semi uppercase mb-6">გახდი AllStore-ის წევრი</h1>
       <p className="text-center text-base-regular text-gray-700 mb-4">
-        Create your Acme Member profile, and get access to an enhanced shopping
-        experience.
+შექმენით თქვენი ALLSTORE-ის წევრის პროფილი და მიიღეთ წვდომა საყიდლებზე.
       </p>
       <form className="w-full flex flex-col" onSubmit={onSubmit}>
         <div className="flex flex-col w-full gap-y-2">
@@ -92,25 +91,25 @@ const Register = () => {
           </div>
         )}
         <span className="text-center text-gray-700 text-small-regular mt-6">
-          By creating an account, you agree to Acme&apos;s{" "}
+           ანგარიშის შექმნით თქვენ ეთანხმებით ALLSTORE-ის 
           <Link href="/content/privacy-policy">
-            <a className="underline">Privacy Policy</a>
+            <a className="underline">კონფიდენციალურობის პოლიტიკას</a>
           </Link>{" "}
-          and{" "}
+          და{" "}
           <Link href="/content/terms-of-use">
-            <a className="underline">Terms of Use</a>
+            <a className="underline">გამოყენების პირობებს</a>
           </Link>
           .
         </span>
-        <Button className="mt-6">Join</Button>
+        <Button className="mt-6 text-xl">გაწევრიანდი</Button>
       </form>
       <span className="text-center text-gray-700 text-small-regular mt-6">
-        Already a member?{" "}
+        უკვე ხართ გაწევრიანებული?{" "}
         <button
           onClick={() => setCurrentView(LOGIN_VIEW.SIGN_IN)}
           className="underline"
         >
-          Sign in
+          შესვლა
         </button>
         .
       </span>
