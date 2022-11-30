@@ -8,7 +8,7 @@ import clsx from "clsx"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
-import {BsPersonPlusFill} from "react-icons/bs"
+import { BsPersonPlusFill } from "react-icons/bs"
 
 const Nav = () => {
   const { pathname } = useRouter()
@@ -56,7 +56,7 @@ const Nav = () => {
       >
         <nav
           className={clsx(
-            "text-gray-900 flex items-center justify-between w-full h-full text-small-regular transition-colors duration-200",
+            "text-black text-gray-900 flex items-center justify-between w-full h-full text-small-regular transition-colors duration-200",
             {
               "text-white group-hover:text-gray-900": isHome && !isScrolled,
             }
@@ -86,7 +86,6 @@ const Nav = () => {
             <Link href="/">
               <a className="text-xl-semi uppercase">ბავშვი</a>
             </Link>
-            
           </div>
 
           <div className="flex items-center gap-x-12 h-full flex-1 basis-0 justify-end">
@@ -96,7 +95,9 @@ const Nav = () => {
                 <a className="registration">ავტორიზაცია</a>
               </Link>
               <Link href="/account">
-                <a className="person"><BsPersonPlusFill/></a>
+                <a className="person">
+                  <BsPersonPlusFill />
+                </a>
               </Link>
             </div>
             <CartDropdown />
