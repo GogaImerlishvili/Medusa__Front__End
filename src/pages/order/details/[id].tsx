@@ -44,8 +44,8 @@ const Confirmed: NextPageWithLayout = () => {
     return (
       <>
         <Head
-          title={`Order #${data.display_id}`}
-          description="View your order"
+          title={`შეკვეთა #${data.display_id}`}
+          description="ნახეთ თქვენი შეკვეთა"
         />
 
         <OrderDetailsTemplate order={data} />

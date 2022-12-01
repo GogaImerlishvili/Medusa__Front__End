@@ -121,10 +121,10 @@ const EditPasswordModal: React.FC<EditPasswordModalProps> = ({ customer }) => {
             className="!bg-gray-200 !text-gray-900 !border-gray-200 min-h-0"
             onClick={close}
           >
-            Cancel
+            გაუქმება
           </Button>
           <Button className="min-h-0" onClick={submit} disabled={submitting}>
-            Save
+            შენახვა
             {submitting && <Spinner />}
           </Button>
         </Modal.Footer>

@@ -33,7 +33,7 @@ const ShippingAddress = () => {
             />
             <div className="grid grid-cols-2 gap-x-2">
               <Input
-                label="First name"
+                label="სახელი"
                 {...register("shipping_address.first_name", {
                   required: "First name is required",
                 })}
@@ -42,7 +42,7 @@ const ShippingAddress = () => {
                 touched={touchedFields}
               />
               <Input
-                label="Last name"
+                label="გვარი"
                 {...register("shipping_address.last_name", {
                   required: "Last name is required",
                 })}
@@ -52,14 +52,14 @@ const ShippingAddress = () => {
               />
             </div>
             <Input
-              label="Company"
+              label="კომაპნია"
               {...register("shipping_address.company")}
               autoComplete="organization"
               errors={errors}
               touched={touchedFields}
             />
             <Input
-              label="Address"
+              label="მისამართი"
               {...register("shipping_address.address_1", {
                 required: "Address is required",
               })}
@@ -67,25 +67,19 @@ const ShippingAddress = () => {
               errors={errors}
               touched={touchedFields}
             />
-            <Input
-              label="Apartments, suite, etc."
-              {...register("shipping_address.address_2")}
-              autoComplete="address-line2"
-              errors={errors}
-              touched={touchedFields}
-            />
             <div className="grid grid-cols-[122px_1fr] gap-x-2">
               <Input
-                label="Postal code"
+                label="postal code  "
                 {...register("shipping_address.postal_code", {
                   required: "Postal code is required",
                 })}
                 autoComplete="postal-code"
                 errors={errors}
                 touched={touchedFields}
+               
               />
               <Input
-                label="City"
+                label="ქალაქი"
                 {...register("shipping_address.city", {
                   required: "City is required",
                 })}
@@ -103,14 +97,7 @@ const ShippingAddress = () => {
               touched={touchedFields}
             />
             <Input
-              label="State / Province"
-              {...register("shipping_address.province")}
-              autoComplete="address-level1"
-              errors={errors}
-              touched={touchedFields}
-            />
-            <Input
-              label="Phone"
+              label="ტელეფონი"
               {...register("shipping_address.phone")}
               autoComplete="tel"
               errors={errors}
