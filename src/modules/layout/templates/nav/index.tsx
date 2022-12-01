@@ -8,7 +8,7 @@ import clsx from "clsx"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
-import {BsPersonPlusFill} from "react-icons/bs"
+import { BsPersonPlusFill } from "react-icons/bs"
 
 const Nav = () => {
   const { pathname } = useRouter()
@@ -71,23 +71,7 @@ const Nav = () => {
             </div>
           </div>
 
-          <div className="nav flex items-center h-full ml-12">
-            <Link href="/">
-              <a className="text-xl-semi">ახალი</a>
-            </Link>
-            <Link href="/">
-              <a className="text-xl-semi uppercase">მამაკაცი</a>
-            </Link>
-
-            <Link href="/">
-              <a className="text-xl-semi uppercase">ქალი</a>
-            </Link>
-
-            <Link href="/">
-              <a className="text-xl-semi uppercase">ბავშვი</a>
-            </Link>
-            
-          </div>
+          {/* search */}
 
           <div className="flex items-center gap-x-12 h-full flex-1 basis-0 justify-end">
             <div className="hidden small:flex items-center gap-x-6 h-full">
@@ -96,7 +80,9 @@ const Nav = () => {
                 <a className="registration">ავტორიზაცია</a>
               </Link>
               <Link href="/account">
-                <a className="person"><BsPersonPlusFill/></a>
+                <a className="person">
+                  <BsPersonPlusFill />
+                </a>
               </Link>
             </div>
             <CartDropdown />
