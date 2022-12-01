@@ -1,13 +1,45 @@
 import UnderlineLink from "@modules/common/components/underline-link"
 import Image from "next/image"
 import Categories from "../categories/index"
+import Link from "next/link"
 
 const Hero = () => {
   return (
     <>
       <div className="flex mt-16">
-        <div className="h-[85vh] relative w-2/5">CATEGORIES</div>
-        <div className="h-[85vh] w-full relative  w-3/5 mx-auto">
+        <div className="h-[85vh] relative w-1/6 bg-gray m-2 flex flex-col justify-items-center text-center">
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 duration-200 ease-out">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 duration-200 ease-out">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 duration-200 ease-out">
+              Hats
+            </a>
+          </Link>
+        </div>
+        <div className="h-[85vh] w-full relative  w-5/6 mx-auto m-2 mr-2">
           <div className=" text-white absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:text-left small:justify-end small:items-start small:p-32">
             <h1 className="text-2xl-semi mb-4 drop-shadow-md shadow-black">
               Summer styles are finally here!! goga && kaxa
