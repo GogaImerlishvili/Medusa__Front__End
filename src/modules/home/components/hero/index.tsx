@@ -38,6 +38,13 @@ const Hero = () => {
               Hats
             </a>
           </Link>
+          <button className="peer absolute w-full bottom-2 text-center">
+            More Categories
+          </button>
+
+          <div className="hidden peer-hover:flex hover:flex absolute z-20 -right-[82vw] bg-red-500 h-[85vh] w-[82vw] mr-1">
+            list of categories
+          </div>
         </div>
         <div className="h-[85vh] w-full relative  w-5/6 mx-auto m-2 mr-2">
           <div className=" text-white absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:text-left small:justify-end small:items-start small:p-32">
