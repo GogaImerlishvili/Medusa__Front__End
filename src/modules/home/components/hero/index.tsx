@@ -1,6 +1,6 @@
 import UnderlineLink from "@modules/common/components/underline-link"
 import Image from "next/image"
-import Categories from "../categories/index"
+import Menus from "../menus/index"
 import Link from "next/link"
 
 const Hero = () => {
@@ -72,7 +72,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <Categories />
+      <Menus />
     </>
   )
 }

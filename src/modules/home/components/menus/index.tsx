@@ -4,12 +4,12 @@ import sales from "./images/5173c434d7b50235b151ac58118b1a09.jpg"
 import onlineExcl from "./images/jhdhgfjgh20220611100951.jpg"
 import fashion from "./images/new-collection-clothes-mall-neatly-folded-high-quality-photo-new-collection-clothes-mall-neatly-folded-206548715.jpg"
 
-interface CategoryProps {
+interface MenuProps {
   title: string
   imgSrc: StaticImageData
 }
 
-const Category = ({ title, imgSrc }: CategoryProps) => (
+const Menu = ({ title, imgSrc }: MenuProps) => (
   <li className="mx-auto w-1/2 relativeh  p-1 pb-0 md:p-0">
     <Image
       src={imgSrc}
@@ -25,16 +25,16 @@ const Category = ({ title, imgSrc }: CategoryProps) => (
   </li>
 )
 
-const Categories = () => {
+const Menus = () => {
   return (
     <ul className="p-2 flex flex-wrap md:flex-row md:flex-nowrap md:gap-x-2">
-      <Category imgSrc={menClothes} title="ფასდაკლება" />
-      <Category imgSrc={sales} title="საშემოდგომო კოლექცია" />
-      <Category imgSrc={sales} title="ონლაინ ექკლუზივი" />
-      <Category imgSrc={onlineExcl} title="ჩანთები და აქსესუარები" />
-      <Category imgSrc={fashion} title="ახალი კოლექცია" />
+      <Menu imgSrc={menClothes} title="ფასდაკლება" />
+      <Menu imgSrc={sales} title="საშემოდგომო კოლექცია" />
+      <Menu imgSrc={sales} title="ონლაინ ექკლუზივი" />
+      <Menu imgSrc={onlineExcl} title="ჩანთები და აქსესუარები" />
+      <Menu imgSrc={fashion} title="ახალი კოლექცია" />
     </ul>
   )
 }
 
-export default Categories
+export default Menus
