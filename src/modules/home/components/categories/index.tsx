@@ -22,11 +22,11 @@ const Categories = () => {
         <Link href="/hats">
           <a className="p-5 hover:text-green-500 duration-200 ease-out">Hats</a>
         </Link>
-        <button className=" peer md:absolute w-full md:bottom-2 text-center">
+        <button className="hidden md:block peer md:absolute w-full md:bottom-2 text-center">
           More Categories
         </button>
 
-        <div className="hidden md:peer-hover:flex hover:flex absolute z-20 -right-[82vw] top-2 bg-white h-[85vh] w-[82vw] flex-col flex-wrap peer-hover:drop-shadow-lg hover:drop-shadow-lg">
+        <div className="md:hidden -gap-10 items-center md:items-start  flex md:peer-hover:flex hover:flex md:absolute z-20 md:-right-[82vw] md:top-2 bg-white md:h-[85vh] w-full text-center md:w-[83vw] flex-col md:flex-wrap peer-hover:drop-shadow-lg hover:drop-shadow-lg">
           <Link href="/hats">
             <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
               Hats
@@ -43,7 +43,257 @@ const Categories = () => {
             </a>
           </Link>
           <Link href="/hats">
-            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4 mr-auto">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
+              Hats
+            </a>
+          </Link>
+          <Link href="/hats">
+            <a className="p-5 hover:text-green-500 ease-in duration-200 w-1/4">
               Hats
             </a>
           </Link>
