@@ -5,25 +5,22 @@ import SkeletonProductPreview from "@modules/skeletons/components/skeleton-produ
 import Image from "next/image"
 import SwiperSlider from "./SwiperSlider"
 
-
 import "swiper/css"
-import "swiper/css/navigation";
-import { Pagination } from "swiper";
+import "swiper/css/navigation"
+import { Pagination } from "swiper"
 import { lte } from "cypress/types/lodash"
-
-
 
 const FeaturedProducts = () => {
   const { data } = useFeaturedProductsQuery()
-  let singlePic = data?.map((product) => product.title)
-  console.log(singlePic?.find((x,y) => x[y]))
+  let singlePic = data?.map((product) => product.id)
+  console.log(singlePic?.find((x, y) => x[y]))
 
   return (
     <div className="mt-20 font-bold ">
       <div>
-     <SwiperSlider />
+        <SwiperSlider />
       </div>
-      <div className="content-container py-12"> 
+      <div className="content-container py-12">
         <ul className="grid grid-cols-2 small:grid-cols-4 gap-x-4 gap-y-8">
           {data
             ? data.map((product) => (

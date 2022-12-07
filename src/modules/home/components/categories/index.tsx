@@ -10,7 +10,7 @@ interface CategoryProps {
 }
 
 const Category = ({ title, imgSrc }: CategoryProps) => (
-  <li className="mx-auto w-1/2 relativeh  p-1 pb-0 md:p-0">
+  <li className="mx-auto w-1/2 relative  p-1 pb-0 md:p-0">
     <Image
       src={imgSrc}
       className="object-fill "
