@@ -63,10 +63,10 @@ const Nav = () => {
           )}
         >
           <div className="flex-1 basis-0 h-full flex items-center">
-            <div className="block small:hidden">
+            <div className="block md:hidden">
               <Hamburger setOpen={toggle} />
             </div>
-            <div className="hidden small:block h-full">
+            <div className="hidden md:block h-full">
               <DropdownMenu />
             </div>
           </div>

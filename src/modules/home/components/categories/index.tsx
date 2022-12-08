@@ -5,10 +5,6 @@ const Categories = () => {
   const [toggle, setToggle] = useState(false)
   return (
     <>
-      <button className="peer items-center md:hidden">
-        categories hamburger menu
-        <Hamburger setOpen={() => setToggle((prev) => !prev)} />
-      </button>
       <div
         className={`${
           toggle ? "flex" : "hidden"
