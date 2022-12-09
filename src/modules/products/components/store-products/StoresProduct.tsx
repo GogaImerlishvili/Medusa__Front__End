@@ -7,15 +7,10 @@ import { useCollections } from "medusa-react"
 
 const StoresProduct = (id: any) => {
   const { collections } = useCollections()
-  const data = collections?.map((c) => c.id)
-  console.log(data!?.[2])
+  const data = (collections || []).map((c) => c.id)
 
-  function extractObject(id: any) {
-    return collections?.filter((row) => row === id).pop()
-  }
-
-  let laura = extractObject(2)
-  console.log(laura)
+  if (typeof data[2] === "undefined") return null
+  console.log(data[2])
 
   return (
     <div className="p-2 flex flex-wrap md:flex-row md:flex-nowrap md:gap-x-2">
@@ -24,12 +19,14 @@ const StoresProduct = (id: any) => {
           src={number_one}
           alt="store1"
           className="w-full h-full object-cover cursor-pointer  hover:scale-125 transition-all duration-1000 sm:h-2/4"
+          width=""
+          height=""
         />
         <div className="p-5 relative w-full h-16  bg-[#e67e22] hover:bg-[#dc7419] cursor-pointer">
           {/* badge */}
           <div className="flex items-center gap-2 ">
             <span className="badge text-xl">მაღაზია N1</span>
-            <UnderlineLink href={`/collections/${data!?.[2]}`}>
+            <UnderlineLink href={`/collections/${data[2]}`}>
               შოპინგის დაწყება{" "}
             </UnderlineLink>
           </div>
@@ -63,9 +60,11 @@ const StoresProduct = (id: any) => {
           {/* badge */}
           <div className="flex items-center gap-2 ">
             <span className="badge text-xl">მაღაზია N3</span>
-            <UnderlineLink href={`/collections/${data!?.[2]}`}>
-              შოპინგის დაწყება{" "}
-            </UnderlineLink>
+            <div>
+              <UnderlineLink href={`/collections/${data!?.[2]}`}>
+                შოპინგის დაწყება{" "}
+              </UnderlineLink>
+            </div>
           </div>
         </div>
       </div>

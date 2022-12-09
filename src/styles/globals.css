@@ -4,6 +4,10 @@
 
 @layer utilities {
   /* Chrome, Safari and Opera */
+  body{
+    max-width: 1440px;
+    margin: 0 auto !important;
+  }
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
