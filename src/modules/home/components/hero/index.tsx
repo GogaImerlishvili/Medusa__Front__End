@@ -5,9 +5,9 @@ import Categories from "../categories/index"
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row mt-16 w-full">
+      <div className="content-container m-w-[1440px] mx-auto flex flex-row sm:flex-row mt-16 h-[560px] ">
         <Categories />
-        <div className="h-[85vh] w-full hidden relative md:block  w-5/6 mx-auto m-2 mr-2">
+        <div className="   relative block w-full  md:w-[85%] mx-auto ">
           <div className=" text-white absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:text-left small:justify-end small:items-start small:p-32">
             <h1 className="text-2xl-semi mb-4 drop-shadow-md shadow-black">
               Summer styles are finally here!! goga && kaxa

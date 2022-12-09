@@ -1,14 +1,11 @@
+import { useCollections } from "medusa-react"
 import Link from "next/link"
-import Hamburger from "@modules/common/components/hamburger"
-import { useState } from "react"
 const Categories = () => {
-  const [toggle, setToggle] = useState(false)
+  const { collections } = useCollections()
   return (
     <>
       <div
-        className={`${
-          toggle ? "flex" : "hidden"
-        }  w-full md:h-[85vh]  md:flex relative md:w-1/6 bg-gray  flex-col md:justify-items-center text-center`}
+        className={`hidden md:block w-full md:flex relative md:w-[15vw] md:bg-gray  flex-col md:justify-items-center text-center`}
       >
         <Link href="/hats">
           <a className="p-5 hover:text-green-500 ease-in duration-200">Hats</a>
