@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       <div className="content-container px-2 md:m-w-[1440px] mx-auto flex flex-row sm:flex-row mt-16 h-[560px] ">
         <Categories />
-        <div className="   relative block w-full  md:w-[85%] mx-auto ">
+        <div className="   relative block w-full  md:w-full mx-auto ">
           <div className=" text-white absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:text-left small:justify-end small:items-start small:p-32">
             <h1 className="text-2xl-semi mb-4 drop-shadow-md shadow-black">
               Summer styles are finally here!! goga && kaxa
