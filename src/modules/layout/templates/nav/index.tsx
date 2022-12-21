@@ -9,6 +9,7 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 import { BsPersonPlusFill } from "react-icons/bs"
+import Search from "@modules/layout/components/search"
 
 const Nav = () => {
   const { pathname } = useRouter()
@@ -71,7 +72,7 @@ const Nav = () => {
             </div>
           </div>
 
-          {/* search */}
+          <Search />
 
           <div className="flex items-center gap-x-12 h-full flex-1 basis-0 justify-end">
             <div className="hidden small:flex items-center gap-x-6 h-full">
