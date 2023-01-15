@@ -57,17 +57,17 @@ const Nav = () => {
       >
         <nav
           className={clsx(
-            "text-gray-900 flex items-center justify-between w-full h-full text-small-regular transition-colors duration-200",
+            "text-black text-gray-900 flex items-center justify-between w-full h-full text-small-regular transition-colors duration-200",
             {
               "text-white group-hover:text-gray-900": isHome && !isScrolled,
             }
           )}
         >
           <div className="flex-1 basis-0 h-full flex items-center">
-            <div className="block small:hidden">
+            <div className="block md:hidden">
               <Hamburger setOpen={toggle} />
             </div>
-            <div className="hidden small:block h-full">
+            <div className="hidden md:block h-full">
               <DropdownMenu />
             </div>
           </div>
